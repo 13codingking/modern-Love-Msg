@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('vc-4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(192, 76, 76);
+    font-size: larger;
+    font-weight: 800px;
+}
+
+header {
+    width: 100%;
+    padding: 0.6%;
+    box-shadow: 1px 1px 1px 0px white;
+    background-color: rgba(255, 0, 0, 0.292);
+    /* border: 3px solid black; */
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    list-style: none;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+nav li a {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+nav li img {
+    width: 89px;
+    height: 40px;
+    border-radius: 4%;
+    border: 0.5px solid black;
+    /* box-shadow: 1px 2px 4px 1px white; */
+    background-color: rgba(255, 255, 255, 0.673);
+}
+
+.moon-blk {
+    /* background-color: rgba(184, 85, 102, 0.616); */
+    background-color: rgba(184, 85, 102, 0.274);
+    width: 400px;
+    height: 400px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    box-shadow: 1px 2px 4px 1px white;
+    opacity: 92%;
+}
+
+#img-1 {
+    /* width: 720px;
+    height: 440px; */
+    height: 338px;
+    width: 319px;
+    /* background-image: url('./m-3-removebg-preview.png'); */
+    border-radius: 100%;
+    /* box-shadow: 1px 2px 4px 1px white; */
+    /* background-size: cover; */
+    background-position: center;
+    /* animation: orbit 50s linear infinite; */
+    /* transform: translate(-50%, -50%); */
+}
+
+#img-2 {
+    width: 290px;
+    height: 369px;
+    display: none;
+    /* background-image: url('./m-3-removebg-preview.png'); */
+    border-radius: 4%;
+    box-shadow: 1px 2px 4px 1px white;
+    background-position: center;
+}
+#img-3 {
+    width: 330px;
+    height: 360px;
+    display: none;
+    /* background-image: url('./m-3-removebg-preview.png'); */
+    border-radius: 4%;
+    box-shadow: 1px 2px 4px 1px white;
+    background-position: center;
+}
+
+/* @keyframes orbit {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+#text-blk {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px 1px white;
+    /* background-color: rgba(184, 85, 102, 0.351); */
+    /* background-color: rgba(184, 85, 102, 0.522); */
+    background-color: rgba(184, 85, 102, 0.404);
+    justify-content: center;
+}
+
+#prev-text {
+    margin: 0.7%;
+    /* font-size: x-large; */
+    font-size: larger;
+}
+
+#new-text {
+    display: none;
+    margin: 0.7%;
+    /* font-size: x-large; */
+    font-size: larger;
+    /* color: red; */
+}
+
+#btn-blk {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin: 15px 0px;
+}
+
+.btn {
+    margin: 1%;
+    border-radius: 8%;
+    background-color: rgba(255, 0, 0, 0.463);
+    color: white;
+    font-size: 18px;
+    padding: 0.6%;
+    box-shadow: 1px 2px 4px 1px white;
+    cursor: pointer;
+}
+
+.shayri {
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    color: rgb(254, 2, 2);
+    /* color: black; */
+    font-size: larger;
+    box-shadow: 1px 2px 4px 1px white;
+    /* background-color: rgba(184, 85, 102, 0.351); */
+}
+
+.in-txt {
+    border: none;
+    padding: 0.2%;
+}
+
+.music {
+    width: 100%;
+    text-align: center;
+    padding: 2.8%;
+    display: flex;
+    gap: 8%;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(184, 85, 102, 0.616); */
+    box-shadow: 1px 2px 4px 1px white;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.sp-txt {
+    margin: 1%;
+    padding: 0.5%;
+    background-color: white;
+    border-radius: 8%;
+    /* gap: 3%; */
+}
+
+.music-box {
+    /* background-color: blue; */
+    background-image: url('vc-3.jpg');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
+.gifts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1%;
+    margin-top: 1%;
+    box-shadow: 1px 2px 4px 1px white;
+    color: white;
+}
+
+.choclate {
+    padding: 1%;
+    background-color: red;
+}
+
+.flower {
+    padding: 1%;
+    background-color: red;
+}
+
+.special-msg {
+    text-align: center;
+    padding: 2%;
+    margin-top: 1%;
+    box-shadow: 1px 2px 4px 1px white;
+    color: white;
+    gap: 5px;
+}
+
+.special-msg a {
+    color: white;
+    background-color: rgba(184, 85, 102, 0.438);
+    font-size: larger;
+    padding: 0.6%;
+    text-decoration: none;
+    border-radius: 3%;
+    margin-top: 1px;
+}
+
+.forSpc {
+    cursor: pointer;
+    border: none;
+    border-radius: 8%;
+    background-color: rgba(184, 85, 102, 0.438);
+    /* background-color: rgba(255, 0, 0, 0.463); */
+    color: white;
+    font-size: 16px;
+    padding: 0.5%;
+    box-shadow: 1px 2px 4px 1px white;
+}
+
+footer {
+    color: white;
+    padding: 1.7%;
+    margin-top: 1%;
+    box-shadow: 1px 2px 4px 1px white;
+    text-align: center;
+    background-color: rgba(184, 85, 102, 0.696);
+}
+
+.lastT {
+    background-color: white;
+    color: red;
+}
+
+#syrCT {
+    display: none;
+}
+
+#in-txt {
+    /* display: none; */
+    padding: 0.2%;
+}
+
+#syrBtn {
+    cursor: pointer;
+    border-radius: 8%;
+    background-color: rgba(255, 0, 0, 0.463);
+    color: white;
+    font-size: 16px;
+    padding: 0.2%;
+    box-shadow: 1px 2px 4px 1px white;
+    margin: 0.4% 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        /* flex-direction: column; */
+        /* gap: 40px; */
+        /* margin: 9px; */
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        margin-top: 9px;
+    }
+
+    .moon-blk {
+        width: 280px;
+        margin: 19px auto;
+        height: 280px;
+    }
+
+    #img-1 {
+        width: 228px;
+        height: 228px;
+    }
+
+    #img-2 {
+        width: 245px;
+        height: 255px;
+    }
+    #img-3 {
+        width: 230px;
+        height: 245px;
+    }
+
+    #prev-text,
+    #new-text {
+        /* background-color: red; */
+        text-align: center;
+    }
+
+    #btn-blk {
+        /* flex-direction: column; */
+        gap: 5%;
+    }
+
+    .shayri {
+        font-size: large;
+        padding: 1.5%;
+        margin: 19px auto;
+    }
+
+    .music {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .music-box {
+        width: 235px;
+        height: 230px;
+    }
+
+    .special-msg {
+        margin: 19px auto;
+        width: 100%;
+    }
+
+    footer {
+        /* font-size: 14px; */
+        font-size: large;
+        padding: 1%;
+    }
+}
